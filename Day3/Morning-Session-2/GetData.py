@@ -3,7 +3,7 @@ import cv2
 import sys
 import os
 import numpy as np
-vcap = cv2.VideoCapture("rtsp://10.51.225.51:8554/output")
+vcap = cv2.VideoCapture("rtsp://10.48.5.140:8504/output")
 home_dir=os.path.expanduser('~')+ '/Capture_Imeges/'
 os.makedirs(home_dir)
 i=1
